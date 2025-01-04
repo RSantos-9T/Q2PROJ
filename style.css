@@ -1,0 +1,171 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.creativemarket.com/0.1.0/ps/4833749/1820/1213/m1/fpnw/wm1/wbqwlmk8mlit5kyyjpb0oeujbpxl7cdhdsl5x2gpo2chgdpuw1ulo22kdnnhhl76-.jpg?1532958573&s=79f2b8451dbf2e4e01281e7c7cc641e5') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background image covers the whole page */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+nav input {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+nav button {
+    padding: 5px 10px;
+    background-color: #88001b;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #e0a800;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: white;
+}
+
+/* Slider styles */
+.slider {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Square Image styles for Cards */
+.card-img-top {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; /* Ensure image covers the square area */
+}
+
+/* Optionally, make the card's aspect ratio consistent */
+.card {
+    height: 400px; /* Adjust the height for the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Category Section styles */
+.category-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.category-card {
+    width: 250px; /* Set width for each card */
+    background-color: darkblue;
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.category-card p {
+    color: #777;
+    font-size: 14px;
+}
+
+.category-card a {
+    display: inline-block;
+    background-color: #darkblue;
+    color: white;   
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.category-card a:hover {
+    background-color: #e0a800;
+}
+    h1 {
+    color: white; /* Set text color to white */
+    font-size: 36px;
+    font-weight: bold;
+}
+    p {
+    color: white; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin: 10px 0; 
+}
+
+
+        .content-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .content-box p {
+            color: black;
+        }
